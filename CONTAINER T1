@@ -25,6 +25,19 @@
             margin-bottom: 24px;
             *zoom: 1;
          }
+		 .display:before, .display:after {
+            content: "";
+            display: table;
+         }
+         .display:after {
+            clear: both;
+         }
+		 /* bada dabba */
+         .display {
+            background: green;
+            margin-bottom: 24px;
+            *zoom: 1;
+         }
          
          .container, section1, section2,section3, aside1, aside2, aside3{
             border-radius: 3px;
@@ -73,6 +86,10 @@
          <aside2>PER CAPITA INCOME</aside2>
 		 <aside3>OCCUPATION</aside3>
       </div>
+	  
+	  <div class="display">
+		<dp>GRAPH DISPLAY HERE</dp>
+	  </div>
       
            
    </body>
