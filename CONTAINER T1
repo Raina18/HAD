@@ -1,0 +1,69 @@
+<html>
+   <head>
+   </head>
+   
+      <style>
+         body {
+            font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+         }
+         h1 {
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 1px;
+         }
+         .container:before, .container:after {
+            content: "";
+            display: table;
+         }
+         .container:after {
+            clear: both;
+         }
+		 /* bada dabba */
+         .container {
+            background: blue;
+            margin-bottom: 24px;
+            *zoom: 1;
+         }
+         
+         .container, section, aside {
+            border-radius: 3px;
+         }
+         section1, section2, aside1, aside2 {
+            background: yellow;
+            color: green;
+            margin: 1%;
+            padding: 5px 0;
+            text-align: center;
+         }
+         section1 {
+            float: left;
+            width: 20%;
+         }
+		 section2 {
+            float: left;
+            width: 20%;
+         }
+         aside1 {
+            float: right;
+            width: 20%;
+         }
+		 aside2 {
+            float: right;
+            width: 20%;
+		}
+      </style>
+   <body>
+   
+      <h1>DATABASE HOUSEHOLD ANALYSIS</h1>
+      
+      <div class="container">
+         <section1>LITERACY</section1>
+		 <section2>GDP</section2>
+		 <aside1>POPULATION</aside1>
+         <aside2>PER CAPITA INCOME</aside2>
+      </div>
+      
+           
+   </body>
+</html>
