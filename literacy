@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LITERCAY</title>
+</head>
+<frameset rows="10%,80%,10%">
+<frame name="top" src="literacyframeTOP.html " />
+<frame name="main" src="literacyframeMID.html " />
+<frame name="bottom " src="/htm l/bottom _fram e.htm " />
+<noframes>
+<body>
+Your browser does not support fram es.
+</body>
+</noframes>
+</frameset>
+</html>

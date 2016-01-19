@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOUSEHOLD DATAABASE ANALYSIS</title>
+</head>
+<frameset cols="200,*">
+   <frame src="LEFTPANEL.html" name="LEFTPANEL" />
+   <frame src="RIGHTPANEL.html" name="RIGHTPANEL" />
+   <noframes>
+   <body>
+      Your browser does not support frames.
+   </body>
+   </noframes>
+</frameset>
+</html>

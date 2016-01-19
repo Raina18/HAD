@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#4a7d49">
+<tr>
+						<td colspan="2" bgcolor="#b5dcb3">
+							<marquee bgcolor="RED" behavior="scroll" direction="left">ALL DATA IS BASED ON INDIAN CESNUS 1951 , 2001 & 2011</marquee>
+						</td>
+					</tr>
+<table width="100%" border="0">
+					<tr>
+						<td colspan="2" bgcolor="#b5dcb3">
+							<h1><b>HOUSEHOLD DATAABASE ANALYSIS<b></h1>
+						</td>
+					</tr>
+</table>
+<br/><br/>
+<a href="literacy.html" target="RIGHTPANEL"> <input type="button" name="LITERACY" value="LITERACY" /><br/></a>
+<br /><br />
+<a href="gdp.html" target="RIGHTPANEL"> <input type="button" name="GDP" value="GDP" /><br/></a>
+<br /><br />
+<a href="others.html" target="RIGHTPANEL"> <input type="button" name="OTHERS" value="OTHERS" /><br/></a>
+</body>
+</html>
